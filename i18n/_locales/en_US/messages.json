@@ -1,5 +1,4 @@
 {
-
   "chrome_extension_name": {
     "message": "Readium"
   },
@@ -199,6 +198,9 @@
   },
   "i18n_are_you_sure" : {
     "message" : "Are you sure you want to permanently delete "
+  },
+  "i18n_show_metadata_dialog": {
+        "message": "Show epub metadata"
   },
   "i18n_add_book_to_readium_library" : {
     "message" : "Add Book To Readium Library:"

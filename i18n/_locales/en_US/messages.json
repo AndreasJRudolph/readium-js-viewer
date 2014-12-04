@@ -200,7 +200,7 @@
     "message" : "Are you sure you want to permanently delete "
   },
   "i18n_show_metadata_dialog": {
-        "message": "Show epub metadata"
+        "message": "Show Epub Metadata"
   },
   "i18n_add_book_to_readium_library" : {
     "message" : "Add Book To Readium Library:"

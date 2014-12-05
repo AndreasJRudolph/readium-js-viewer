@@ -93,7 +93,11 @@ module.exports = function(grunt) {
             }, {
                 expand: true,
                 cwd: 'gruntCloudReader/',
-                src: '*.*',
+                src: ['*.*','.gitmodules'],
+                dest: 'build/cloud-reader'
+            }, {
+                expand: true,
+                src: 'epub_content/',
                 dest: 'build/cloud-reader'
             }]
         },

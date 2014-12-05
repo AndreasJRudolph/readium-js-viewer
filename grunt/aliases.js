@@ -39,6 +39,6 @@ module.exports = function(grunt) {
 
         "test_travis" : ['cloudReaderWithFullEpub', 'chromeApp', 'crx', 'express:test', 'simplemocha'],
         
-        "deploy" : ['shell:go-to-folder', 'shell:git-add', 'shell:git-commit', 'shell:git-push']
+        "deploy" : [/*'shell:git-add', 'shell:git-commit', 'shell:git-push'*/ 'ssh:sshexec:deploy']
     };
 };

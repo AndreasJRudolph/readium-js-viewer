@@ -1,4 +1,4 @@
-
+//TODO: live reload ???
 'use strict';
 
 module.exports = function(grunt) {
@@ -15,7 +15,7 @@ module.exports = function(grunt) {
                 options: {
                     bases: process.cwd(),
                     port: 8080,
-                    livereload: true
+                    //livereload: true
                 }
             }
         },

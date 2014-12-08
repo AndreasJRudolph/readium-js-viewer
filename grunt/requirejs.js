@@ -59,7 +59,7 @@ module.exports = function(grunt) {
                 mainConfigFile: './require_config.js',
                 include: ['ReadiumViewer'],
                 name: 'thirdparty/almond',
-                optimize: 'none',
+                //optimize: 'none',
                 baseUrl: './lib/',
                 out: 'build/cloud-reader/scripts/readium-all.js',
                 paths: {

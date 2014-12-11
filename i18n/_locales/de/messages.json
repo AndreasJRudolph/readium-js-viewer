@@ -1,6 +1,6 @@
 { "about": {
     "message": "Über Readium"
-    },
+},
     "preview": {
         "message": "Vorschau"
     },
@@ -22,6 +22,12 @@
     "settings": {
         "message": "Einstellungen"
     },
+    "layout": {
+        "message": "Layout"
+    },
+    "style": {
+        "message": "Stil"
+    }
     "enter_fullscreen": {
         "message": "Vollbildmodus"
     },
@@ -34,8 +40,8 @@
     "chrome_extension_description": {
         "message": "Ein Leseprogramm für EPUB3 Bücher."
     },
-    "ok" : {
-        "message" : "Ok"
+    "ok": {
+        "message": "Ok"
     },
     "i18n_readium_library": {
         "message": "Readium Bibliothek"
@@ -163,7 +169,7 @@
     "err_dlg_title": {
         "message": "Unerwarteter Fehler"
     },
-    "replace" : {
+    "replace": {
         "message": "Ersetzen"
     },
     "i18n_author": {

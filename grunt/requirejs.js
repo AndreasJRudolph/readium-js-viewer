@@ -59,6 +59,7 @@ module.exports = function(grunt) {
                 mainConfigFile: './require_config.js',
                 include: ['ReadiumViewer'],
                 name: 'thirdparty/almond',
+                //optimize: 'none',
                 baseUrl: './lib/',
                 out: 'build/cloud-reader/scripts/readium-all.js',
                 paths: {
@@ -66,6 +67,15 @@ module.exports = function(grunt) {
                     'viewer-version' : '../build/version.json'
                 }
             }
-        }
+        },
+        paginationWorker: {
+            options: {
+                mainConfigFile: 'readium-js/rjs_require_config.js',
+                include: ['epub-modules/web-workers/Pagination-Worker'],
+                baseUrl: './readium-js/',
+                optimize: 'none',
+                out: 'readium-js/out/pagination-worker.js',
+            }
+        },
     };
 };

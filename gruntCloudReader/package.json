@@ -1,0 +1,16 @@
+{
+  "name":"SERVING-dzb-cloud-reader",
+  "version":"1.0.0",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GermanCentralLibraryForTheBlind/readium-js-viewer.git"
+  },
+  "dependencies":{},
+  "devDependencies":{
+    "matchdep": "~0.1.1",
+    "grunt": "~0.4.0",
+    "grunt-express": "^1.4.1",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}

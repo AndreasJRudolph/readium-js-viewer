@@ -1,11 +1,18 @@
 {
-
   "chrome_extension_name": {
     "message": "Readium"
   },
   "about" : {
     "message" : "About"
+  }, 
+   
+  "add_epub_dialog"  : {
+      "message" : "Add Epub to Library"
   },
+     
+  "list_view_thumbnail_view_toggle" : {
+      "message" : "Toggle List View and Thumbnail View"},
+      
   "preview" : {
     "message" : "PREVIEW"
   },
@@ -192,6 +199,9 @@
   "i18n_are_you_sure" : {
     "message" : "Are you sure you want to permanently delete "
   },
+  "i18n_show_metadata_dialog": {
+        "message": "Show Epub Metadata"
+  },
   "i18n_add_book_to_readium_library" : {
     "message" : "Add Book To Readium Library:"
   },
@@ -255,6 +265,9 @@
   "i18n_vancouver_mist" : {
     "message" : "Vancouver Mist"
   },
+  "i18n_custom_theme" : {
+    "message" : "Custom Theme"
+  },
   "i18n_display_format" : {
     "message" : "DISPLAY FORMAT"
   },
@@ -292,7 +305,15 @@
   "i18n_page_transition_butterfly" : {
     "message" : "Butterfly"
   },
-  
+  "i18n_foreground_color_customize_theme" : {
+    "message" : "Foreground Color"
+  },
+  "i18n_background_color_customize_theme" : {
+    "message" : "Background Color"
+  },
+  "i18n_customize_theme_header" : {
+    "message" : "Custom Theme"
+  },
   "i18n_html_readium_tm_a_project" : {
     "message" : "Readium for Chrome is the Chrome browser extension configuration of ReadiumJS, an open source reading system and JavaScript library for displaying EPUB® publications in web browsers. ReadiumJS is a project of the Readium Foundation (Readium.org). To learn more or to contribute, visit the <a href=\"http://readium.org/projects/readiumjs\">project homepage</a>"
   },

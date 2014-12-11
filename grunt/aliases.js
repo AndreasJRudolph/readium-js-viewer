@@ -37,6 +37,8 @@ module.exports = function(grunt) {
 
         "test_sauce" : ['env:sauce', 'chromeApp', 'crx', 'env:chromeApp', 'simplemocha'],
 
-        "test_travis" : ['cloudReaderWithFullEpub', 'chromeApp', 'crx', 'express:test', 'simplemocha']
+        "test_travis" : ['cloudReaderWithFullEpub', 'chromeApp', 'crx', 'express:test', 'simplemocha'],
+        
+        "deploy" : [/*'shell:git-add', 'shell:git-commit', 'shell:git-push'*/ 'ssh:sshexec:deploy']
     };
 };

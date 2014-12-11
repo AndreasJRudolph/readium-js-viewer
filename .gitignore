@@ -3,3 +3,8 @@
 node_modules
 build
 local_test_data
+.gitmodules~
+.idea/
+readium-js/
+
+

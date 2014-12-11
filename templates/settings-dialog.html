@@ -18,13 +18,15 @@
            
            <div class="tab-content">
                 <div id="tab-style" class="tab-pane active" role="tabpanel" aria-expanded="true">
-                     
-                <h5 aria-hidden="true">{{strings.preview}}</h5>
-                <div  aria-hidden="true" class="row">
-                    <div data-theme="default-theme" class="col-xs-10 col-xs-offset-1 preview-text default-theme">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque dui, congue a suscipit non, feugiat eu urna. Cras in felis sed orci aliquam sagittis. 
+                    
+                    <div id="theme-preview">
+                        <h5 aria-hidden="true">{{strings.preview}}</h5>
+                        <div  aria-hidden="true" class="row">
+                            <div data-theme="default-theme" class="col-xs-10 col-xs-offset-1 preview-text default-theme">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque dui, congue a suscipit non, feugiat eu urna. Cras in felis sed orci aliquam sagittis. 
+                            </div>
+                        </div>
                     </div>
-                </div>
 
 <!-- button  type="button" title="TESTING" aria-label="TESTING">TESTING DANIEL</button -->
                 
@@ -42,22 +44,67 @@
                     </div>
 
                     <h5 id="setting-header-color-legend" class="setting-header">{{strings.i18n_text_and_background_color}}</h5>
-                    <div role="group" aria-labelledby="setting-header-color-legend" id="theme-radio-group" class="row">
-                        
-                        <button role="button" data-theme="author-theme"  title="{{strings.i18n_author_theme}}" aria-label="{{strings.i18n_author_theme}}" class="col-xs-8 col-xs-offset-2 theme-option author-theme clickable">{{strings.i18n_author_theme}}</button>
-                        
-                        <button role="button" data-theme="default-theme"  title="{{strings.i18n_black_and_white}}" aria-label="{{strings.i18n_black_and_white}}" class="col-xs-8 col-xs-offset-2 theme-option default-theme clickable">{{strings.i18n_black_and_white}}</button>
-                        
-                        <button role="button" data-theme="night-theme"  title="{{strings.i18n_arabian_nights}} [{{keyboard.NightTheme}}]" aria-label="{{strings.i18n_arabian_nights}} [{{keyboard.NightTheme}}]" class="col-xs-8 col-xs-offset-2 theme-option night-theme clickable" >{{strings.i18n_arabian_nights}}</button> <!-- accesskey="{{keyboard.accesskeys.NightTheme}}" -->
-                        
-                        <button role="button" data-theme="parchment-theme"  title="{{strings.i18n_sands_of_dune}}" aria-label="{{strings.i18n_sands_of_dune}}" class="col-xs-8 col-xs-offset-2 theme-option parchment-theme clickable">{{strings.i18n_sands_of_dune}}</button>
-                        
-                        <button role="button" data-theme="ballard-theme"  title="{{strings.i18n_ballard_blues}}" aria-label="{{strings.i18n_ballard_blues}}" class="col-xs-8 col-xs-offset-2 theme-option ballard-theme clickable">{{strings.i18n_ballard_blues}}</button>
-                        
-                        <button role="button" data-theme="vancouver-theme"  title="{{strings.i18n_vancouver_mist}}" aria-label="{{strings.i18n_vancouver_mist}}" class="col-xs-8 col-xs-offset-2 theme-option vancouver-theme clickable">{{strings.i18n_vancouver_mist}}</button>
+
+                    <div role="radiogroup" aria-labelledby="setting-header-color-legend" class="row">
+
+                        <div id="author-theme-radio-div" role="radio" class="col-xs-8 col-xs-offset-2 theme-option author-theme clickable" data-theme="author-theme">
+                            <div class="col-xs-offset-3">
+                                <input id="author-theme-radio" name="color-theme" value="author-theme" type="radio"/>
+                                <label for="author-theme-radio" class="underlinedLabel">
+                                    {{strings.i18n_author_theme}}
+                                </label>
+                            </div>
+
+
+                        </div>
+
+                        <div id="default-theme-radio-div" role="radio" class="col-xs-8 col-xs-offset-2 theme-option default-theme clickable" data-theme="default-theme">
+                            <div class="col-xs-offset-3">
+                                <input id="default-theme-radio" name="color-theme" value="default-theme" type="radio"/>
+                                <label for="default-theme-radio" class="underlinedLabel">
+                                    {{strings.i18n_black_and_white}}
+                                </label>
+                            </div>
+
+                        </div>
+
+                        <div id="night-theme-radio-div" role="radio" class="col-xs-8 col-xs-offset-2 theme-option night-theme clickable" data-theme="night-theme">
+                            <div class="col-xs-offset-3">
+                                <input id="night-theme-radio" name="color-theme" value="night-theme" type="radio"/>
+                                <label id="night-theme-radio-label" for="night-theme-radio" class="underlinedLabel">
+                                    {{strings.i18n_arabian_nights}}
+                                </label>
+                            </div>
+                        </div>
+
+                        <div id="parchment-theme-radio-div" role="radio" class="col-xs-8 col-xs-offset-2 theme-option parchment-theme clickable" data-theme="parchment-theme">
+                            <div class="col-xs-offset-3">
+                                <input id="parchment-theme-radio" name="color-theme" value="parchment-theme" type="radio"/>
+                                <label for="parchment-theme-radio" class="underlinedLabel">
+                                    {{strings.i18n_sands_of_dune}}
+                                </label>
+                            </div>
+                        </div>
+
+                        <div id="ballard-theme-radio-div" role="radio" class="col-xs-8 col-xs-offset-2 theme-option ballard-theme clickable" data-theme="ballard-theme">
+                            <div class="col-xs-offset-3">
+                                <input id="ballard-theme-radio" name="color-theme" value="ballard-theme" type="radio"/>
+                                <label id="ballard-theme-radio-label" for="ballard-theme-radio" class="underlinedLabel">
+                                    {{strings.i18n_ballard_blues}}
+                                </label>
+                            </div>
+                        </div>
+                        <div id="custom-theme-radio-div" role="radio" class="col-xs-8 col-xs-offset-2 theme-option default-theme clickable" data-theme="custom-theme">
+                            <div class="col-xs-offset-3">
+                                <input id="custom-theme-radio" name="color-theme" value="custom-theme" type="radio"/>
+                                <label id="custom-theme-radio-label" for="custom-theme-radio" class="underlinedLabel">
+                                    {{strings.i18n_custom_theme}}
+                                </label>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div id="tab-layout" class="tab-pane" role="tabpanel">
+               </div>
+                    <div id="tab-layout" class="tab-pane" role="tabpanel">
                     
                     <h5 id="setting-header-margins-legend" class="setting-header">{{strings.i18n_margins}}</h5>
                      <div class="row">
@@ -194,4 +241,37 @@
         <!-- /.modal-content -->
     </div>
     <!-- /.modal-dialog -->
+</div>
+
+<div tabindex="-1" class="modal fade" id="custom-theme-dialog" role="dialog" aria-label="{{strings.settings}}"
+     aria-hidden="true">
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h5>{{strings.i18n_custom_theme}}</h5>
+            </div>
+
+            <div class="modal-body" id="custom-theme-dialog-body">
+                <div role="group" aria-labelledby="custom-theme-options" id="custom-theme-options" class="row">
+                    <button style="" type="button" id="foreground-color-btn"
+                            class="col-xs-8 col-xs-offset-2 theme-option-custom clickable ">
+                    {{strings.i18n_foreground_color_customize_theme}}
+                    </button>
+                    <button style="" type="button" id="background-color-btn"
+                            class="col-xs-8 col-xs-offset-2 theme-option-custom clickable">
+                    {{strings.i18n_background_color_customize_theme}}
+                    </button>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button id="Custom-Theme-Close" type="button" class="btn btn-primary" data-dismiss="modal"
+                        title="{{strings.ok}}" aria-label="{{strings.ok}}">
+                    {{strings.ok}}
+                </button>
+            </div>
+        </div>
+    </div>
 </div>

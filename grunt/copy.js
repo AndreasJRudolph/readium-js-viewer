@@ -90,7 +90,16 @@ module.exports = function(grunt) {
                 cwd: 'lib',
                 src: 'mathjax/**',
                 dest: 'build/cloud-reader/scripts'
-            } ]
+            }, {
+                expand: true,
+                cwd: 'gruntCloudReader/',
+                src: ['*.*','.gitmodules'],
+                dest: 'build/cloud-reader'
+            }, {
+                expand: true,
+                src: 'epub_content/',
+                dest: 'build/cloud-reader'
+            }]
         },
         cloudReaderEpubContent: {
             files: [{

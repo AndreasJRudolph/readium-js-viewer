@@ -1,0 +1,3 @@
+[submodule "epub_content"]
+path = epub_content
+url = https://github.com/GermanCentralLibraryForTheBlind/test-content.git

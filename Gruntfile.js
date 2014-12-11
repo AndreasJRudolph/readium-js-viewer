@@ -32,6 +32,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-selenium-webdriver');
     grunt.loadNpmTasks('grunt-env');
     grunt.loadNpmTasks('grunt-crx');
+    grunt.loadNpmTasks('grunt-shell');
+    grunt.loadNpmTasks('grunt-ssh');
+
 
     var path = require('path');
     var configs = require('load-grunt-config')(grunt, {

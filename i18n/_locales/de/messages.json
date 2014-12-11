@@ -286,6 +286,9 @@
     "i18n_vancouver_mist": {
         "message": "Vancouver Mist"
     },
+    "i18n_custom_theme" : {
+        "message" : "eigenes Farbschema"
+    },
     "i18n_display_format": {
         "message": "Anzeigeformat"
     },
@@ -322,6 +325,12 @@
     },
     "i18n_page_transition_butterfly": {
         "message": "Butterfly"
+    },
+    "i18n_foreground_color_customize_theme" : {
+        "message" : "Schriftfarbe"
+    },
+    "i18n_background_color_customize_theme" : {
+        "message" : "Hintergrundfarbe"
     },
     "i18n_html_readium_tm_a_project": {
         "message": "Readium für Chrome ist die Chrome Browser Erweiterung basierend auf ReadiumJS, einem Open-Source Lesesystem und einer JavaScript Bibliothek zur Darstellung von EPUB® Veröffentlichungen in Web-Browsern. ReadiumJS ist ein Projekt der Readium Foundation (Readium.org). Wenn Sie mehr darüber erfahren möchten oder das Projekt unterstützen wollen, besuchen Sie bitte die <a href=\"http://readium.org/\">Projekt Homepage</a>."

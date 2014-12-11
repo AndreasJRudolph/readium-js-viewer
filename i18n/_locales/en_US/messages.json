@@ -306,7 +306,7 @@
     "message" : "Butterfly"
   },
   "i18n_foreground_color_customize_theme" : {
-    "message" : "Foreground Color"
+    "message" : "Font Color"
   },
   "i18n_background_color_customize_theme" : {
     "message" : "Background Color"

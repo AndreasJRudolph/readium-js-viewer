@@ -16,6 +16,9 @@
     "thumbnail_view": {
         "message": "Kachelansicht"
     },
+    "show_metadata":{
+        "message" : "Epub Metadaten"
+    },
     "view_library": {
         "message": "Bibliothek"
     },

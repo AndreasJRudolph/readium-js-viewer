@@ -14,6 +14,9 @@
   "thumbnail_view" : {
     "message" : "Thumbnail View"
   },
+  "show_metadata":{
+      "message" : "Epub Metadata"
+  },
   "view_library": {
     "message" : "Library"
   },

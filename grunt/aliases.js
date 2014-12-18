@@ -13,7 +13,7 @@
 
 module.exports = function(grunt) {
     return {
-        "default": 'concurrent:serverwatch',
+        "default": ['copy:cloudReaderDev', 'clean:cloudReaderDev', 'versioning', 'concurrent:serverwatch'],
 
         "runserver": ['express:dev', 'express-keepalive'],
 
@@ -25,6 +25,9 @@ module.exports = function(grunt) {
         "cloudReader": ['clean:cloudReader', 'copy:cloudReader', 'cssmin:cloudReader', 'versioning', 'requirejs:cloudReader'],
         "cloudReaderWithEpub": ['clean:cloudReader', 'copy:cloudReader', 'copy:cloudReaderEpubContent', 'cssmin:cloudReader', 'versioning', 'requirejs:cloudReader'],
 
+        "cloudReaderWithFullEpub" : ['cloudReaderWithEpub', 'createTestLibrary'],
+
+
         //"test": ['selenium_start', 'chromeApp', 'copy:prepareChromeAppTests', 'nodeunit:chromeApp'],
         "test_chromeApp" : ['chromeApp', 'env:chromeApp', 'simplemocha'],
 
@@ -34,8 +37,6 @@ module.exports = function(grunt) {
 
         "test_sauce" : ['env:sauce', 'chromeApp', 'crx', 'env:chromeApp', 'simplemocha'],
 
-        "test_travis" : ['cloudReaderWithEpub', 'chromeApp', 'crx', 'express:test', 'simplemocha'],
-
-        "epubReadingSystem": ['epubReadingSystem_readJSON', 'epubReadingSystem_processModules', 'epubReadingSystem_writeJSON']
+        "test_travis" : ['cloudReaderWithFullEpub', 'chromeApp', 'crx', 'express:test', 'simplemocha']
     };
 };

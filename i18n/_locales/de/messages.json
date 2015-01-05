@@ -13,6 +13,9 @@
     "view_library": {
         "message": "Bibliothek"
     },
+    "zoom": {
+        "message": "Vergrößerung"
+    },
     "highlight_selection": {
         "message": "Ausgewählten Text hervorheben"
     },

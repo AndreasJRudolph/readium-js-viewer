@@ -22,6 +22,18 @@
     "view_library": {
         "message": "Bibliothek"
     },
+    "zoom": {
+        "message": "Vergrößerung"
+    },
+    "zoom_custom": {
+        "message" : "Nutzerdefiniert"
+    },
+    "zoom_fit_width": {
+        "message" : "Seitenbreite"
+    },
+    "zoom_fit_screen": {
+        "message" : "Seitenhöhe"
+    },
     "highlight_selection": {
         "message": "Ausgewählten Text hervorheben"
     },

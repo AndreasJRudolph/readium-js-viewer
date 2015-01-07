@@ -28,6 +28,18 @@
   "view_library": {
     "message" : "Library"
   },
+  "zoom": {
+    "message" : "Zoom"
+  },
+  "zoom_custom": {
+        "message" : "Custom"
+  },
+  "zoom_fit_width": {
+        "message" : "Fit width"
+  },
+  "zoom_fit_screen": {
+        "message" : "Fit screen"
+  },
   "highlight_selection" : {
     "message" : "Highlight Selected Text"
   },

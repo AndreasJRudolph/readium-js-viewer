@@ -484,13 +484,22 @@ input[type="text"] {
     -webkit-appearance: none !important;
 }
 
+body.keyboard .close:focus
+{
+    opacity: 0.733;
+    outline-style: solid !important;
+    outline-color: #444444 !important;
+    outline-width: 3px !important;
+}
+
+
 body.keyboard button:focus,
 body.keyboard input[type="radio"]:focus + label,
 body.keyboard button.details:focus,
 body.keyboard #epub-upload input:focus
 {
     outline-style: solid !important;
-    outline-color: #555555 !important;
+    outline-color: #444444 !important;
     outline-width: 3px !important;
 }
 
@@ -513,7 +522,7 @@ body.keyboard input[type="range"]:focus
     border-width: 3px !important;
 
     outline-style: solid !important;
-    outline-color: #555555 !important;
+    outline-color: #444444 !important;
     outline-width: 3px !important;
 }
 
@@ -521,7 +530,7 @@ body.keyboard input[type="range"]:focus
 body.keyboard #app-navbar #zoom-menu a:focus
 {
     border-style: solid !important;
-    border-color: #555555 !important;
+    border-color: #444444 !important;
     border-width: 3px !important;
 }
 

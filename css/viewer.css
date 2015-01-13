@@ -489,16 +489,18 @@ input[name="color-theme"]:focus{
 }
 
 input[name="color-theme"]:focus + label{
-    color: red;
     outline-style: none !important;
 }
 
+body.keyboard button:focus
+{
+    outline: #555555 double 3px !important;
+}
 
-body.keyboard button:focus,
 body.keyboard input[type="radio"]:focus + label,
 body.keyboard input[type="range"]:focus
 {
-    outline: #555555 double 3px !important;
+    outline: #555555 double 3px;
 }
 
 body.keyboard button.details:focus

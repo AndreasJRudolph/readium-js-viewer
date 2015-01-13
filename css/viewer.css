@@ -496,7 +496,8 @@ body.keyboard .close:focus
 body.keyboard button:focus,
 body.keyboard input[type="radio"]:focus + label,
 body.keyboard button.details:focus,
-body.keyboard #epub-upload input:focus
+body.keyboard #epub-upload input:focus,
+body.keyboard .keyboardInput:focus
 {
     outline-style: solid !important;
     outline-color: #444444 !important;

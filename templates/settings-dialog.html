@@ -50,7 +50,7 @@
                         <div id="author-theme-radio-div" role="radio" class="col-xs-8 col-xs-offset-2 theme-option author-theme clickable" data-theme="author-theme">
                             <div class="col-xs-offset-3">
                                 <input id="author-theme-radio" name="color-theme" value="author-theme" type="radio"/>
-                                <label for="author-theme-radio" class="underlinedLabel">
+                                <label for="author-theme-radio">
                                     {{strings.i18n_author_theme}}
                                 </label>
                             </div>
@@ -61,7 +61,7 @@
                         <div id="default-theme-radio-div" role="radio" class="col-xs-8 col-xs-offset-2 theme-option default-theme clickable" data-theme="default-theme">
                             <div class="col-xs-offset-3">
                                 <input id="default-theme-radio" name="color-theme" value="default-theme" type="radio"/>
-                                <label for="default-theme-radio" class="underlinedLabel">
+                                <label for="default-theme-radio">
                                     {{strings.i18n_black_and_white}}
                                 </label>
                             </div>
@@ -71,7 +71,7 @@
                         <div id="night-theme-radio-div" role="radio" class="col-xs-8 col-xs-offset-2 theme-option night-theme clickable" data-theme="night-theme">
                             <div class="col-xs-offset-3">
                                 <input id="night-theme-radio" name="color-theme" value="night-theme" type="radio"/>
-                                <label id="night-theme-radio-label" for="night-theme-radio" class="underlinedLabel">
+                                <label id="night-theme-radio-label" for="night-theme-radio">
                                     {{strings.i18n_arabian_nights}}
                                 </label>
                             </div>
@@ -80,7 +80,7 @@
                         <div id="parchment-theme-radio-div" role="radio" class="col-xs-8 col-xs-offset-2 theme-option parchment-theme clickable" data-theme="parchment-theme">
                             <div class="col-xs-offset-3">
                                 <input id="parchment-theme-radio" name="color-theme" value="parchment-theme" type="radio"/>
-                                <label for="parchment-theme-radio" class="underlinedLabel">
+                                <label for="parchment-theme-radio">
                                     {{strings.i18n_sands_of_dune}}
                                 </label>
                             </div>
@@ -89,7 +89,7 @@
                         <div id="ballard-theme-radio-div" role="radio" class="col-xs-8 col-xs-offset-2 theme-option ballard-theme clickable" data-theme="ballard-theme">
                             <div class="col-xs-offset-3">
                                 <input id="ballard-theme-radio" name="color-theme" value="ballard-theme" type="radio"/>
-                                <label id="ballard-theme-radio-label" for="ballard-theme-radio" class="underlinedLabel">
+                                <label id="ballard-theme-radio-label" for="ballard-theme-radio">
                                     {{strings.i18n_ballard_blues}}
                                 </label>
                             </div>
@@ -97,7 +97,7 @@
                         <div id="custom-theme-radio-div" role="radio" class="col-xs-8 col-xs-offset-2 theme-option default-theme clickable" data-theme="custom-theme">
                             <div class="col-xs-offset-3">
                                 <input id="custom-theme-radio" name="color-theme" value="custom-theme" type="radio"/>
-                                <label id="custom-theme-radio-label" for="custom-theme-radio" class="underlinedLabel">
+                                <label id="custom-theme-radio-label" for="custom-theme-radio">
                                     {{strings.i18n_custom_theme}}
                                 </label>
                             </div>
@@ -126,7 +126,7 @@
                         <div role="radio" id="spread-default-option"
                         style="vertical-align:middle;width:30%;display:inline-block;position:relative;">
                             <input style=""  name="display-format" value="single" type="radio" id="spread-default-radio"/>
-                            <label style="" for="spread-default-radio" class="underlinedLabel">
+                            <label style="" for="spread-default-radio">
                                 {{strings.i18n_spread_auto}}
                             </label>
                         </div>
@@ -136,7 +136,7 @@
                         style="vertical-align:middle;width:30%;display:inline-block;position:relative;">
                             
                             <input  name="display-format" value="single" type="radio" id="single-page-radio" />
-                                            <label for="single-page-radio" class="underlinedLabel">
+                                            <label for="single-page-radio">
                                             <img src="images/ico_singlepage_up.png" alt="{{strings.i18n_display_format}} {{strings.i18n_single_pages}}"/>
                                             </label>
                         </div>
@@ -144,7 +144,7 @@
                         style="vertical-align:middle;width:30%;display:inline-block;position:relative;">
                             
                                 <input  name="display-format" value="double" type="radio" id="double-page-radio" />
-                                            <label for="double-page-radio" class="underlinedLabel">
+                                            <label for="double-page-radio">
                                             <img src="images/ico_doublepage_up.png" alt="{{strings.i18n_display_format}} {{strings.i18n_double_pages}}">
                                             </label>
                         </div>
@@ -156,21 +156,21 @@
                         
                         <div role="radio" id="scroll-default-option" style="vertical-align:middle;width:30%;display:inline-block;position:relative;">
                             <input style=""  name="scrolling" value="single" type="radio" id="scroll-default-radio"/>
-                            <label style="" for="scroll-default-radio" class="underlinedLabel">
+                            <label style="" for="scroll-default-radio">
                                 {{strings.i18n_scroll_mode_auto}}
                             </label>
                         </div>
                         
                         <div role="radio" id="scroll-doc-option" style="vertical-align:middle;width:30%;display:inline-block;position:relative;">
                             <input style=""  name="scrolling" value="single" type="radio" id="scroll-doc-radio"/>
-                            <label style="" for="scroll-doc-radio" class="underlinedLabel">
+                            <label style="" for="scroll-doc-radio">
                                 <span style="font-size:150%;color:#888888;" class="glyphicon glyphicon-file" aria-hidden="true"></span> {{strings.i18n_scroll_mode_doc}}
                             </label>
                         </div>
                         
                         <div role="radio" id="scroll-continuous-option" style="vertical-align:middle;width:30%;display:inline-block;position:relative;">
                             <input style=""  name="scrolling" value="single" type="radio" id="scroll-continuous-radio"/>
-                            <label style="" for="scroll-continuous-radio" class="underlinedLabel">
+                            <label style="" for="scroll-continuous-radio">
                                 <span style="font-size:150%;color:#888888;" class="glyphicon glyphicon-road" aria-hidden="true"></span> {{strings.i18n_scroll_mode_continuous}}
                             </label>
                         </div>
@@ -183,35 +183,35 @@
                         
                         <div role="radio" id="pageTransition-none-option" style="vertical-align:middle;width:15%;display:inline-block;position:relative;">
                             <input style=""  name="pageTransition" value="single" type="radio" id="pageTransition-none-radio"/>
-                            <label style="" for="pageTransition-none-radio" class="underlinedLabel">
+                            <label style="" for="pageTransition-none-radio">
                                 {{strings.i18n_page_transition_none}}
                             </label>
                         </div>
                         
                         <div role="radio" id="pageTransition-1-option" style="vertical-align:middle;width:15%;display:inline-block;position:relative;">
                             <input style=""  name="pageTransition" value="single" type="radio" id="pageTransition-1-radio"/>
-                            <label style="" for="pageTransition-1-radio" class="underlinedLabel">
+                            <label style="" for="pageTransition-1-radio">
                                 {{strings.i18n_page_transition_fade}}
                             </label>
                         </div>
                         
                         <div role="radio" id="pageTransition-2-option" style="vertical-align:middle;width:15%;display:inline-block;position:relative;">
                             <input style=""  name="pageTransition" value="single" type="radio" id="pageTransition-2-radio"/>
-                            <label style="" for="pageTransition-2-radio" class="underlinedLabel">
+                            <label style="" for="pageTransition-2-radio">
                                 {{strings.i18n_page_transition_slide}}
                             </label>
                         </div>
                         
                         <div role="radio" id="pageTransition-3-option" style="vertical-align:middle;width:15%;display:inline-block;position:relative;">
                             <input style=""  name="pageTransition" value="single" type="radio" id="pageTransition-3-radio"/>
-                            <label style="" for="pageTransition-3-radio" class="underlinedLabel">
+                            <label style="" for="pageTransition-3-radio">
                                 {{strings.i18n_page_transition_swoosh}}
                             </label>
                         </div>
                         
                         <div role="radio" id="pageTransition-4-option" style="vertical-align:middle;width:15%;display:inline-block;position:relative;">
                             <input style=""  name="pageTransition" value="single" type="radio" id="pageTransition-4-radio"/>
-                            <label style="" for="pageTransition-4-radio" class="underlinedLabel">
+                            <label style="" for="pageTransition-4-radio">
                                 {{strings.i18n_page_transition_butterfly}}
                             </label>
                         </div>

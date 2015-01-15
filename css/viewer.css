@@ -499,31 +499,61 @@ body.keyboard button:focus
 
 body.keyboard input[type="radio"]:focus + label,
 body.keyboard input[type="range"]:focus
+body.keyboard .close:focus
 {
-    outline: #555555 double 3px;
+    opacity: 0.85;
+    outline-style: solid !important;
+    outline-color: #444444 !important;
+    outline-width: 3px !important;
 }
 
-body.keyboard button.details:focus
+#epub-upload:focus
 {
-    outline: #555555 double 3px !important;
+    outline-style: solid !important;
+    outline-color: #444444 !important;
+    outline-width: 3px !important;
 }
 
-body.keyboard input[type="text"]:focus
+body.keyboard button:focus,
+body.keyboard input[type="radio"]:focus + label,
+body.keyboard button.details:focus,
+body.keyboard #epub-upload input:focus
+body.keyboard input:focus,
+body.keyboard .keyboardInput:focus
 {
-    background: #fff;
-    outline: #555555 double 2px !important;
+    outline-style: solid !important;
+    outline-color: #444444 !important;
+    outline-width: 3px !important;
 }
 
 body.keyboard #app-navbar button:focus,
 body.keyboard #app-navbar input[type="radio"]:focus + label,
-body.keyboard #app-navbar input[type="range"]:focus
+body.keyboard #app-navbar input[type="text"]:focus,
+body.keyboard #app-navbar input[type="range"]:focus,
+body.keyboard #app-navbar #zoom-menu-link:focus
 {
-    outline: #cccccc double 3px  !important;
+    outline-style: solid !important;
+    outline-color: #cccccc !important;
+    outline-width: 3px !important;
 }
 
-body.keyboard #app-navbar input[type="text"]:focus {
-    background: #fff;
-    outline: #cccccc double 3px !important;
+body.keyboard input[type="range"]:focus
+{
+    border-style: solid !important;
+    border-color: #cccccc !important;
+    border-width: 3px !important;
+
+    outline-style: solid !important;
+    outline-color: #444444 !important;
+    outline-width: 3px !important;
+}
+
+
+body.keyboard #app-navbar #zoom-menu a:focus
+{
+    border-style: solid !important;
+    border-color: #444444 !important;
+    border-width: 3px !important;
 }
 
 input[type="range"] {

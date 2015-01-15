@@ -484,17 +484,17 @@ input[type="text"] {
     -webkit-appearance: none !important;
 }
 
-input[name="color-theme"]:focus{
-    outline-style: none !important;
-}
-
-input[name="color-theme"]:focus + label{
+input[name="color-theme"]:focus,
+input[name="color-theme"]:focus + label,
+{
     outline-style: none !important;
 }
 
 body.keyboard button:focus
 {
-    outline: #555555 double 3px !important;
+    outline-style: solid !important;
+    outline-color: #444444 !important;
+    outline-width: 3px !important;
 }
 
 body.keyboard input[type="radio"]:focus + label,

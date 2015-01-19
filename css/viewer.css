@@ -484,12 +484,6 @@ input[type="text"] {
     -webkit-appearance: none !important;
 }
 
-input[name="color-theme"]:focus,
-input[name="color-theme"]:focus + label,
-{
-    outline-style: none !important;
-}
-
 body.keyboard button:focus
 {
     outline-style: solid !important;
@@ -497,8 +491,6 @@ body.keyboard button:focus
     outline-width: 3px !important;
 }
 
-body.keyboard input[type="radio"]:focus + label,
-body.keyboard input[type="range"]:focus
 body.keyboard .close:focus
 {
     opacity: 0.85;
@@ -514,8 +506,9 @@ body.keyboard .close:focus
     outline-width: 3px !important;
 }
 
-body.keyboard button:focus,
 body.keyboard input[type="radio"]:focus + label,
+body.keyboard input[type="range"]:focus,
+body.keyboard button:focus,
 body.keyboard button.details:focus,
 body.keyboard #epub-upload input:focus
 body.keyboard input:focus,
@@ -554,6 +547,20 @@ body.keyboard #app-navbar #zoom-menu a:focus
     border-style: solid !important;
     border-color: #444444 !important;
     border-width: 3px !important;
+}
+
+
+
+/*#author-theme-radio:focus + label*/
+#author-theme-radio:focus +label,
+#default-theme-radio:focus +label,
+#night-theme-radio:focus +label,
+#parchment-theme-radio:focus +label,
+#ballard-theme-radio:focus +label,
+#custom-theme-radio:focus +label
+{
+        border: none!important;
+        outline: none!important;
 }
 
 input[type="range"] {

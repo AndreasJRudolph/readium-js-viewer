@@ -491,7 +491,9 @@ body.keyboard button:focus
     outline-width: 3px !important;
 }
 
-body.keyboard .close:focus
+body.keyboard .close:focus,
+#left-page-btn:focus,
+#right-page-btn:focus
 {
     opacity: 1;
     outline-style: solid !important;
@@ -510,7 +512,7 @@ body.keyboard input[type="radio"]:focus + label,
 body.keyboard input[type="range"]:focus,
 body.keyboard button:focus,
 body.keyboard button.details:focus,
-body.keyboard #epub-upload input:focus
+body.keyboard #epub-upload input:focus,
 body.keyboard input:focus,
 body.keyboard .keyboardInput:focus
 {
@@ -530,16 +532,17 @@ body.keyboard #app-navbar #zoom-menu-link:focus
     outline-width: 3px !important;
 }
 
+button.read:focus,
 #font-size-input:focus,
 #margin-size-input:focus
 {
-    border-style: solid !important;
-    border-color: #cccccc !important;
-    border-width: 3px !important;
-
     outline-style: solid !important;
     outline-color: #444444 !important;
     outline-width: 3px !important;
+
+    border-style: solid !important;
+    border-color: #cccccc !important;
+    border-width: 3px !important;
 }
 
 

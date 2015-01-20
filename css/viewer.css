@@ -530,7 +530,8 @@ body.keyboard #app-navbar #zoom-menu-link:focus
     outline-width: 3px !important;
 }
 
-body.keyboard input[type="range"]:focus
+#font-size-input:focus,
+#margin-size-input:focus
 {
     border-style: solid !important;
     border-color: #cccccc !important;
@@ -549,9 +550,20 @@ body.keyboard #app-navbar #zoom-menu a:focus
     border-width: 3px !important;
 }
 
+#rate-range-slider:focus,
+#volume-range-slider:focus
+{
+    outline: none!important;
+}
 
 
-/*#author-theme-radio:focus + label*/
+
+#author-theme-radio:focus,
+#default-theme-radio:focus,
+#night-theme-radio:focus,
+#parchment-theme-radio:focus,
+#ballard-theme-radio:focus,
+#custom-theme-radio:focus,
 #author-theme-radio:focus +label,
 #default-theme-radio:focus +label,
 #night-theme-radio:focus +label,

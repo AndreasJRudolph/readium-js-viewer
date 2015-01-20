@@ -484,46 +484,98 @@ input[type="text"] {
     -webkit-appearance: none !important;
 }
 
-input[name="color-theme"]:focus{
-    outline-style: none !important;
-}
-
-input[name="color-theme"]:focus + label{
-    outline-style: none !important;
-}
-
 body.keyboard button:focus
 {
-    outline: #555555 double 3px !important;
+    outline-style: solid !important;
+    outline-color: #444444 !important;
+    outline-width: 3px !important;
+}
+
+body.keyboard .close:focus,
+#left-page-btn:focus,
+#right-page-btn:focus
+{
+    opacity: 1;
+    outline-style: solid !important;
+    outline-color: #444444 !important;
+    outline-width: 3px !important;
+}
+
+#epub-upload:focus
+{
+    outline-style: solid !important;
+    outline-color: #444444 !important;
+    outline-width: 3px !important;
 }
 
 body.keyboard input[type="radio"]:focus + label,
-body.keyboard input[type="range"]:focus
+body.keyboard input[type="range"]:focus,
+body.keyboard button:focus,
+body.keyboard button.details:focus,
+body.keyboard #epub-upload input:focus,
+body.keyboard input:focus,
+body.keyboard .keyboardInput:focus
 {
-    outline: #555555 double 3px;
-}
-
-body.keyboard button.details:focus
-{
-    outline: #555555 double 3px !important;
-}
-
-body.keyboard input[type="text"]:focus
-{
-    background: #fff;
-    outline: #555555 double 2px !important;
+    outline-style: solid !important;
+    outline-color: #444444 !important;
+    outline-width: 3px !important;
 }
 
 body.keyboard #app-navbar button:focus,
 body.keyboard #app-navbar input[type="radio"]:focus + label,
-body.keyboard #app-navbar input[type="range"]:focus
+body.keyboard #app-navbar input[type="text"]:focus,
+body.keyboard #app-navbar input[type="range"]:focus,
+body.keyboard #app-navbar #zoom-menu-link:focus
 {
-    outline: #cccccc double 3px  !important;
+    outline-style: solid !important;
+    outline-color: #cccccc !important;
+    outline-width: 3px !important;
 }
 
-body.keyboard #app-navbar input[type="text"]:focus {
-    background: #fff;
-    outline: #cccccc double 3px !important;
+button.read:focus,
+#font-size-input:focus,
+#margin-size-input:focus
+{
+    outline-style: solid !important;
+    outline-color: #444444 !important;
+    outline-width: 3px !important;
+
+    border-style: solid !important;
+    border-color: #cccccc !important;
+    border-width: 3px !important;
+}
+
+
+body.keyboard #app-navbar #zoom-menu a:focus
+{
+    border-style: solid !important;
+    border-color: #444444 !important;
+    border-width: 3px !important;
+}
+
+#rate-range-slider:focus,
+#volume-range-slider:focus
+{
+    outline: none!important;
+}
+
+
+
+#author-theme-radio:focus,
+#default-theme-radio:focus,
+#night-theme-radio:focus,
+#parchment-theme-radio:focus,
+#ballard-theme-radio:focus,
+#custom-theme-radio:focus,
+#author-theme-radio:focus +label,
+#default-theme-radio:focus +label,
+#night-theme-radio:focus +label,
+#parchment-theme-radio:focus +label,
+#ballard-theme-radio:focus +label,
+#custom-theme-radio:focus +label
+{
+        border: none!important;
+        outline: none!important;
 }
 
 input[type="range"] {

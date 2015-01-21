@@ -554,7 +554,8 @@ body.keyboard #app-navbar #zoom-menu a:focus
 }
 
 #rate-range-slider:focus,
-#volume-range-slider:focus
+#volume-range-slider:focus,
+input[type="radio"]:focus
 {
     outline: none!important;
 }

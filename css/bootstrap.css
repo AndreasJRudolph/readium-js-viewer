@@ -296,7 +296,7 @@ a {
 
 a:focus {
     color: #2a6496;
-    border: #555555 double 3px !important;
+    border: #555555 3px !important;
 }
 
 a:hover {
@@ -1789,11 +1789,15 @@ select optgroup {
     font-style: inherit
 }
 
+/*
 input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus {
-    outline: #555555 double 3px ;
-    /*outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;*/
+    outline: #555555 3px ;
+    */
+/*outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;*//*
+
     outline-offset: -2px
+*/
 }
 
 input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
@@ -1831,7 +1835,7 @@ output {
 .form-control:focus {
     border-color: #66afe9;
     box-shadow: 0px 0px 5px #555555 !important;
-    outline: #555555 double 3px !important;
+    outline: #555555 3px !important;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6)
@@ -5436,14 +5440,14 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
     filter: alpha(opacity=50)
 }
 
-.close:focus
+/*.close:focus
 {
     opacity: .6;
     filter: alpha(opacity=60)
 
     box-shadow: 0px 0px 5px #000000 !important;
-    outline: #000000 double 3px !important;
-}
+    outline: #000000 3px !important;
+}*/
 
 button.close {
     padding: 0;

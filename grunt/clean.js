@@ -17,7 +17,7 @@ module.exports = function(grunt) {
 
     return {
         chromeApp: ['build/chrome-app'],
-        cloudReader: ['build/testbooks.zip', 'build/cloud-reader'],
+        cloudReader: ['build/testbooks.zip'],
         cloudReaderLite: ['build/cloud-reader-lite'],
         cloudReaderDev: ['build/cloud-reader-dev'],
         version: ['build/version.json']

@@ -573,7 +573,8 @@ input[type="radio"]:focus
 #night-theme-radio:focus +label,
 #parchment-theme-radio:focus +label,
 #ballard-theme-radio:focus +label,
-#custom-theme-radio:focus +label
+#custom-theme-radio:focus +label,
+.modal-body input[type="radio"]:focus
 {
         border: none!important;
         outline: none!important;

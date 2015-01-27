@@ -1,5 +1,5 @@
 <div class="details-body">
-    <button id="closeMetadataCross" type="button" class="close" data-dismiss="modal"  tabindex="1" title="{{strings.i18n_close}} {{strings.i18n_details}}" aria-label="{{strings.i18n_close}} {{strings.i18n_details}}"><span aria-hidden="true">&times;</span></button>
+    <button id="closeMetadataCross" type="button" class="close" data-dismiss="modal"  tabindex="1000" title="{{strings.i18n_close}} {{strings.i18n_details}}" aria-label="{{strings.i18n_close}} {{strings.i18n_details}}"><span aria-hidden="true">&times;</span></button>
     <div class="offscreenText">Details Start</div>
     <div class="modal-cover-wrap">
         {{#data.coverHref}}
@@ -8,7 +8,10 @@
         {{^data.coverHref}}
         <div class="no-cover" style="background-image: url('{{data.noCoverBackground}}')"><p>{{data.title}}</p></div>
         {{/data.coverHref}}
-
+        <div id='details-button-div' class="buttons"hidden aria-hidden='true'>
+            <button class="btn btn-default delete" data-dismiss="modal" type="button" tabindex="1000">{{strings.i18n_delete}}</button>
+            <button class="btn btn-default read" data-dismiss="modal" data-book="{{data.rootUrl}}" type="button" tabindex="1000">{{strings.i18n_read}}</button>
+        </div>
     </div>
     <div class='modal-book-info'>
         <h3 class='modal-title'>{{ data.title }}</h3>
@@ -18,10 +21,6 @@
         <div class='modal-detail'>{{strings.i18n_modified_date}}{{data.modified_date}}</div>
         <div class='modal-detail'>{{strings.i18n_id}}{{data.id}}</div>
         <div class='modal-detail'>{{strings.i18n_epub_version}}{{data.epub_version}}</div>
-    </div>
-    <div id='details-button-div' class="modal-footer" hidden aria-hidden='true'>
-        <button class="btn btn-danger delete" data-dismiss="modal" type="button" tabindex="1">{{strings.i18n_delete}}</button>
-        <button class="btn btn-default read" data-dismiss="modal" data-book="{{data.rootUrl}}" type="button" tabindex="1">{{strings.i18n_read}}</button>
     </div>
     <div class="offscreenText">Details End</div>
 </div>

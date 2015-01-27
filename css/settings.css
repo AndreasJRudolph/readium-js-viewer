@@ -116,14 +116,19 @@
     padding-bottom: 0px;
     padding-top: 0px;
 
-    margin-top: 0.5em;
+    margin-top: 0.7em;
     
     background-color: white;
-    color: blue;
+    color: #428bca;
     
     position: absolute;
     right: 0;
 }
+#keyboard-list > li > button.resetKey:hover,
+#keyboard-list > li > button.resetKey:focus{
+    color:#2D6A9F;
+}
+
 #keyboard-list > li#resetAllKeysTOP
 {
     border:0;

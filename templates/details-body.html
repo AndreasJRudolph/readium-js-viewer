@@ -1,5 +1,5 @@
 <div class="details-body">
-    <button id="closeMetadataCross" type="button" class="close" data-dismiss="modal"  tabindex="1" title="{{strings.i18n_close}} {{strings.i18n_details}}" aria-label="{{strings.i18n_close}} {{strings.i18n_details}}"><span aria-hidden="true">&times;</span></button>
+    <button id="closeMetadataCross" type="button" class="close" data-dismiss="modal"  tabindex="1000" title="{{strings.i18n_close}} {{strings.i18n_details}}" aria-label="{{strings.i18n_close}} {{strings.i18n_details}}"><span aria-hidden="true">&times;</span></button>
     <div class="offscreenText">Details Start</div>
     <div class="modal-cover-wrap">
         {{#data.coverHref}}
@@ -20,8 +20,8 @@
         <div class='modal-detail'>{{strings.i18n_epub_version}}{{data.epub_version}}</div>
     </div>
     <div id='details-button-div' class="modal-footer" hidden aria-hidden='true'>
-        <button class="btn btn-danger delete" data-dismiss="modal" type="button" tabindex="1">{{strings.i18n_delete}}</button>
-        <button class="btn btn-default read" data-dismiss="modal" data-book="{{data.rootUrl}}" type="button" tabindex="1">{{strings.i18n_read}}</button>
+        <button class="btn btn-default delete" data-dismiss="modal" type="button" tabindex="1000">{{strings.i18n_delete}}</button>
+        <button class="btn btn-primary read" data-dismiss="modal" data-book="{{data.rootUrl}}" type="button" tabindex="1000">{{strings.i18n_read}}</button>
     </div>
     <div class="offscreenText">Details End</div>
 </div>

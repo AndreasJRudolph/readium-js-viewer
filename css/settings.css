@@ -27,10 +27,9 @@
 }
 #keyboard-list > li {
     position: relative;
-
     border-top: 1px dashed silver;
-    margin-bottom: 0.6em;
-}
+    padding-top: 0.3em;
+    }
 #keyboard-list > li > label {
     text-align: left;
 }
@@ -134,19 +133,16 @@
     border:0;
     padding: 0;
     margin: 0;
-    margin-bottom: 1em;
+    margin-bottom: 2.5em;
 }
 #keyboard-list > li#resetAllKeysBOTTOM
 {
-    border:0;
     padding: 0;
     margin: 0;
 }
 #keyboard-list > li.resetAllKeys > button.resetKey
 {
-    position: static;
     text-align: right;
-    width: 100%;
 }
 
 .theme-option{
@@ -172,7 +168,6 @@
   background-color: white;
   color: black;
   font-weight: bold;
-  font-style: italic;
   border: 1px dashed #333333;
 }
 

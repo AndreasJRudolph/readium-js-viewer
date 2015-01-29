@@ -7,12 +7,12 @@
            </div -->
                
             <div class="modal-body">
-           <button type="button" class="close" id="closeSettingsCross" data-dismiss="modal" title="{{strings.i18n_close}} {{strings.settings}}" aria-label="{{strings.i18n_close}} {{strings.settings}}"><span aria-hidden="true">&times;</span></button>
+           <button type="button" class="close" id="closeSettingsCross" data-dismiss="modal" aria-label="{{strings.i18n_close}} {{strings.settings}} [{{keyboard.SettingsModalClose}}]"><span aria-hidden="true">&times;</span></button>
 
            <ul class="nav nav-tabs" role="tablist" aria-owns="tab-butt-style tab-butt-layout tab-butt-keys">
-             <li class="active" role="presentation"><button id="tab-butt-style"  title="{{strings.style}}" aria-label="{{strings.style}}" role='tab' aria-controls="tab-style" data-toggle="tab" data-target="#tab-style">{{strings.style}}</button></li>
-             <li role="presentation"><button id="tab-butt-layout"  title="{{strings.layout}}" aria-label="{{strings.layout}}" role='tab' aria-controls="tab-layout" data-toggle="tab" data-target="#tab-layout">{{strings.layout}}</button></li>
-             <li role="presentation"><button id="tab-butt-keys"  title="{{strings.i18n_keyboard_shortcuts}}" aria-label="{{strings.i18n_keyboard_shortcuts}}" role='tab' aria-controls="tab-keyboard" data-toggle="tab" data-target="#tab-keyboard">{{strings.i18n_keyboard_shortcuts}}</button></li>
+             <li class="active" role="presentation"><button id="tab-butt-style" aria-label="{{strings.style}}" role='tab' aria-controls="tab-style" data-toggle="tab" data-target="#tab-style">{{strings.style}}</button></li>
+             <li role="presentation"><button id="tab-butt-layout" aria-label="{{strings.layout}}" role='tab' aria-controls="tab-layout" data-toggle="tab" data-target="#tab-layout">{{strings.layout}}</button></li>
+             <li role="presentation"><button id="tab-butt-keys" aria-label="{{strings.i18n_keyboard_shortcuts}}" role='tab' aria-controls="tab-keyboard" data-toggle="tab" data-target="#tab-keyboard">{{strings.i18n_keyboard_shortcuts}}</button></li>
            </ul>
            
            
@@ -234,8 +234,8 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button id="buttClose" type="button" class="btn btn-default" data-dismiss="modal" title="{{strings.i18n_close}} [{{keyboard.SettingsModalClose}}]" aria-label="{{strings.i18n_close}} [{{keyboard.SettingsModalClose}}]">{{strings.i18n_close}}</button>
-                <button id="buttSave"  type="button" class="btn btn-primary" data-dismiss="modal" title="{{strings.i18n_save_changes}} [{{keyboard.SettingsModalSave}}]" aria-label="{{strings.i18n_save_changes}} [{{keyboard.SettingsModalSave}}]">{{strings.i18n_save_changes}}</button>
+                <button id="buttClose" type="button" class="btn btn-default" data-dismiss="modal" aria-label="{{strings.i18n_close}} [{{keyboard.SettingsModalClose}}]">{{strings.i18n_close}} [{{keyboard.SettingsModalClose}}]</button>
+                <button id="buttSave"  type="button" class="btn btn-primary" data-dismiss="modal" aria-label="{{strings.i18n_save_changes}} [{{keyboard.SettingsModalSave}}]">{{strings.i18n_save_changes}} [{{keyboard.SettingsModalSave}}]</button>
             </div>
         </div>
         <!-- /.modal-content -->
@@ -249,17 +249,17 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" id="closeCustomThemeCross" data-dismiss="modal" title="{{strings.i18n_close}} {{strings.i18n_custom_theme}}" aria-label="{{strings.i18n_close}} {{strings.i18n_custom_theme}}"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" id="closeCustomThemeCross" data-dismiss="modal" aria-label="{{strings.i18n_close}} {{strings.i18n_custom_theme}}"><span aria-hidden="true">&times;</span></button>
                 <h5>{{strings.i18n_custom_theme}}</h5>
             </div>
 
             <div class="modal-body" id="custom-theme-dialog-body">
                 <div role="group" aria-labelledby="custom-theme-options" id="custom-theme-options" class="row">
-                    <button style="" type="button" id="foreground-color-btn"
+                    <button style="" aria-label="{{strings.i18n_foreground_color_customize_theme}}" type="button" id="foreground-color-btn"
                             class="col-xs-8 col-xs-offset-2 theme-option-custom clickable ">
                     {{strings.i18n_foreground_color_customize_theme}}
                     </button>
-                    <button style="" type="button" id="background-color-btn"
+                    <button style="" aria-label="{{strings.i18n_background_color_customize_theme}}" type="button" id="background-color-btn"
                             class="col-xs-8 col-xs-offset-2 theme-option-custom clickable">
                     {{strings.i18n_background_color_customize_theme}}
                     </button>
@@ -268,7 +268,7 @@
 
             <div class="modal-footer">
                 <button id="custom-theme-ok-btn" type="button" class="btn btn-primary" data-dismiss="modal"
-                        title="{{strings.ok}}" aria-label="{{strings.ok}}">
+                        aria-label="{{strings.ok}}">
                     {{strings.ok}}
                 </button>
             </div>

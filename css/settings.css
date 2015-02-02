@@ -210,6 +210,22 @@
     margin-right:0.2em;
 }
 
+label.focus_thin{
+  border-style:solid;
+  border-width:1px
+}
+
+label.focus_default{
+border-style:solid;
+border-width:3px
+}
+
+label.focus_thick{
+border-style:solid;
+border-width:6px
+}
+
+
 #foreground-color-btn {
     margin-top:2em;
 }

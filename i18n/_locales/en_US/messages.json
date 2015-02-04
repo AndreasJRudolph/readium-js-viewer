@@ -310,8 +310,8 @@
   "i18n_focus_default" : {
         "message" : "default"
   },
-    "i18n_focus_thick" : {
-        "message" : "thick"
+    "i18n_focus_heavy" : {
+        "message" : "heavy"
   },
   "i18n_page_transition" : {
     "message" : "PAGE EFFECTS"

@@ -84,10 +84,6 @@ direction: rtl;
     -webkit-user-select: none;
 }
 
-.navbar .btn-group > .btn:hover, .navbar .btn-group > .btn:active, .navbar .btn-group > .btn:focus {
-    box-shadow: none;
-}
-
 .navbar .btn {
     color: #ddd;
     font-size: 16px;
@@ -477,7 +473,7 @@ button,
 input[type="radio"] + label,
 input[type="range"],
 input[type="text"] {
-    outline: 0;
+    outline: 0 !important;
 }
 
 input[type="text"] {
@@ -488,7 +484,7 @@ body.keyboard button:focus
 {
     outline-style: solid !important;
     outline-color: #444444 !important;
-    outline-width: 3px;
+    outline-width: 3px !important;
 }
 
 body.keyboard .close:focus,
@@ -498,14 +494,14 @@ body.keyboard .close:focus,
     opacity: 1;
     outline-style: solid !important;
     outline-color: #444444 !important;
-    outline-width: 3px;
+    outline-width: 3px !important;
 }
 
 #epub-upload:focus
 {
     outline-style: solid !important;
     outline-color: #444444 !important;
-    outline-width: 3px;
+    outline-width: 3px !important;
 }
 
 body.keyboard a:focus,
@@ -520,7 +516,7 @@ body.keyboard .keyboardInput:focus
 {
     outline-style: solid !important;
     outline-color: #444444 !important;
-    outline-width: 3px;
+    outline-width: 3px !important;
 }
 
 body.keyboard #app-navbar button:focus,
@@ -532,7 +528,7 @@ body.keyboard #app-navbar #zoom-menu-link:focus
 
     outline-style: solid !important;
     outline-color: #cccccc !important;
-    outline-width: 3px;
+    outline-width: 3px !important;
 }
 
 button.read:focus,
@@ -541,7 +537,7 @@ button.read:focus,
 {
     outline-style: solid !important;
     outline-color: #444444 !important;
-    outline-width: 3px;
+    outline-width: 3px !important;
 
     border-style: solid !important;
     border-color: #cccccc !important;
@@ -579,8 +575,8 @@ input[type="radio"]:focus
 #custom-theme-radio:focus +label,
 .modal-body input[type="radio"]:focus
 {
-        border: none;
-        outline: none;
+        border: none!important;
+        outline: none!important;
 }
 
 input[type="range"] {

@@ -545,7 +545,7 @@ button.read:focus,
 }
 
 
-body.keyboard #app-navbar #zoom-menu a:focus,
+body.keyboard #app-navbar #zoom-menu a:focus
 {
     border-style: solid !important;
     border-color: #444444 !important;
@@ -643,21 +643,6 @@ ul.nav-tabs li:not(.active) button:hover {
     border-bottom-right-radius: 0 !important;
 }
 
-@media (max-width: 768px) {
-    .navbar .btn-group > .btn.icon-full-screen {
-        display: none;
-    }
-
-    #epub-reader-frame {
-        border-left: 30px solid transparent;
-        border-right: 30px solid transparent;
-    }
-
-    .page-switch-overlay-icon {
-        font-size: 30px;
-    }
-}
-
 .zoom-wrapper {
     /* display: inline-block; */
     display: none;
@@ -686,4 +671,19 @@ ul.nav-tabs li:not(.active) button:hover {
 
 #zoom-menu .active-zoom .glyphicon-ok {
     display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .navbar .btn-group > .btn.icon-full-screen {
+        display: none;
+    }
+
+    #epub-reader-frame {
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+    }
+
+    .page-switch-overlay-icon {
+        font-size: 30px;
+    }
 }

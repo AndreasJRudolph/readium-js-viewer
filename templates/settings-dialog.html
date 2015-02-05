@@ -151,31 +151,59 @@
                     </div>
 
                     <h5 id="setting-header-scroll-legend" class="setting-header">{{strings.i18n_scroll_mode}}</h5>
-                    
+
                     <div role="radiogroup" class="row" style="width:100%;text-align:center;" aria-labelledby="setting-header-scroll-legend">
-                        
+
                         <div role="radio" id="scroll-default-option" style="vertical-align:middle;width:30%;display:inline-block;position:relative;">
                             <input style=""  name="scrolling" value="single" type="radio" id="scroll-default-radio"/>
                             <label style="" for="scroll-default-radio">
                                 {{strings.i18n_scroll_mode_auto}}
                             </label>
                         </div>
-                        
+
                         <div role="radio" id="scroll-doc-option" style="vertical-align:middle;width:30%;display:inline-block;position:relative;">
                             <input style=""  name="scrolling" value="single" type="radio" id="scroll-doc-radio"/>
                             <label style="" for="scroll-doc-radio">
                                 <span style="font-size:150%;color:#888888;" class="glyphicon glyphicon-file" aria-hidden="true"></span> {{strings.i18n_scroll_mode_doc}}
                             </label>
                         </div>
-                        
+
                         <div role="radio" id="scroll-continuous-option" style="vertical-align:middle;width:30%;display:inline-block;position:relative;">
                             <input style=""  name="scrolling" value="single" type="radio" id="scroll-continuous-radio"/>
                             <label style="" for="scroll-continuous-radio">
                                 <span style="font-size:150%;color:#888888;" class="glyphicon glyphicon-road" aria-hidden="true"></span> {{strings.i18n_scroll_mode_continuous}}
                             </label>
                         </div>
-                        
+
                     </div>
+
+                        <h5 id="setting-header-focus-legend" class="setting-header">{{strings.i18n_focus_size}}</h5>
+
+                        <div role="radiogroup" class="row" style="width:100%;text-align:center;" aria-labelledby="setting-header-focus-legend">
+
+                            <div role="radio" id="focus-thin-option" style="vertical-align:middle;width:30%;display:inline-block;position:relative;">
+                                <input style=""  name="focus" value="thin" type="radio" id="focus-thin-radio"/>
+                                <label class="focus_thin" for="focus-thin-radio">
+                                    {{strings.i18n_focus_thin}}
+                                </label>
+                            </div>
+
+                            <div role="radio" id="focus-default-option" style="vertical-align:middle;width:30%;display:inline-block;position:relative;">
+                                <input style=""  name="focus" value="default" type="radio" id="focus-default-radio"/>
+                                <label class="focus_default" for="focus-default-radio">
+                                    {{strings.i18n_focus_default}}
+                                </label>
+                            </div>
+
+                            <div role="radio" id="focus-heavy-option" style="vertical-align:middle;width:30%;display:inline-block;position:relative;">
+                                <input style=""  name="focus" value="heavy" type="radio" id="focus-heavy-radio"/>
+                                <label class="focus_heavy" for="focus-heavy-radio">
+                                    {{strings.i18n_focus_heavy}}
+                                </label>
+                            </div>
+
+                        </div>
+
 
                     <h5 hiddenx="hidden" id="setting-header-pageTransition-legend" class="setting-header">{{strings.i18n_page_transition}}</h5>
                     

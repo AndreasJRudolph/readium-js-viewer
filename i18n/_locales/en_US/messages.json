@@ -7,7 +7,7 @@
   }, 
    
   "add_epub_dialog"  : {
-      "message" : "Add Epub to Library"
+      "message" : "Add epub to Library"
   },
      
   "list_view_thumbnail_view_toggle" : {
@@ -92,10 +92,10 @@
     "message": "If you continue, the following epub will be replaced with the one you are importing"
   },
   "import_dlg_title" : {
-    "message": "Importing EPUB"
+    "message": "Importing epub"
   },
   "import_dlg_message" : {
-    "message": "Examining EPUB content..."
+    "message": "Examining epub content..."
   },
   "storing_file" : {
     "message": "Storing file"
@@ -107,7 +107,7 @@
     "message": "Unable to access storage"
   },
   "err_epub_corrupt" : {
-    "message": "Invalid or corrupted EPUB package"
+    "message": "Invalid or corrupted epub package"
   },
   "err_dlg_title" : {
     "message": "Unexpected Error"
@@ -152,13 +152,13 @@
     "message" : "INVALID"
   },
   "i18n_paginate_all" : {
-    "message" : "Paginate all reflowable ePUB content"
+    "message" : "Paginate all reflowable epub content"
   },
   "i18n_automatically" : {
     "message" : "Automatically open *.epub urls in readium"
   },
   "i18n_show_warning" : {
-    "message" : "Show warning messages when unpacking EPUB files"
+    "message" : "Show warning messages when unpacking epub files"
   },
   "i18n_details" : {
     "message" : "Details"
@@ -188,7 +188,7 @@
     "message" : "ID: "
   },
   "i18n_epub_version" : {
-    "message" : "EPUB version: "
+    "message" : "Epub version: "
   },
   "i18n_created_at" : {
     "message" : "Created at: "
@@ -203,7 +203,7 @@
     "message" : "Unknown"
   },
   "i18n_sorry" : {
-    "message" : "Sorry, the current EPUB does not contain a media overlay for this content"
+    "message" : "Sorry, the current epub does not contain a media overlay for this content"
   },
   "i18n_add_items" : {
     "message" : "Add items to your library here!"
@@ -215,7 +215,7 @@
     "message" : "Are you sure you want to permanently delete "
   },
   "i18n_show_metadata_dialog": {
-        "message": "Show Epub Metadata"
+        "message": "Show epub Metadata"
   },
   "i18n_add_book_to_readium_library" : {
     "message" : "Add Book To Readium Library:"
@@ -242,7 +242,7 @@
     "message" : "Validate:"
   },
   "i18n_confirm_that_this_book" : {
-    "message" : "Confirm that this book complies with ePUB standards"
+    "message" : "Confirm that this book complies with epub standards"
   },
   "i18n_single_pages" : {
     "message" : "Single Pages"
@@ -301,7 +301,18 @@
   "i18n_scroll_mode_continuous" : {
     "message" : "Continuous"
   },
-  
+  "i18n_focus_size" : {
+      "message" : "Focus size"
+  },
+  "i18n_focus_thin" : {
+    "message" : "thin"
+  },
+  "i18n_focus_default" : {
+        "message" : "default"
+  },
+    "i18n_focus_heavy" : {
+        "message" : "heavy"
+  },
   "i18n_page_transition" : {
     "message" : "PAGE EFFECTS"
   },

@@ -5,8 +5,8 @@
             <div class='author'>{{ epub.author}}{{^epub.author}}No Author Listed{{/epub.author}}</div>
         </div> -->
 
-            <button type="button" style="background: none; border: none; padding: 0; margin: 0;" class="read" data-book="{{epub.rootUrl}}"  aria-label="({{count.n}}) {{epub.title}}" tabindex="{{count.tabindex}}">
-            
+            <button type="button" style="background: none; border: none;" class="read" data-book="{{epub.rootUrl}}"  aria-label="({{count.n}}) {{epub.title}}" tabindex="{{count.tabindex}}">
+
                 {{#epub.coverHref}}
         <div aria-hidden="true" class="no-cover has-cover" style="background-image:url({{ epub.coverHref }});"><p>&nbsp;</p></div>
                 {{/epub.coverHref}}

@@ -143,9 +143,9 @@ body:not(.list-view) #app-container .library-item .info-wrap .no-cover {
     border-radius: 3px;
 }
 
-body:not(.list-view) #app-container .library-item .info-wrap button {
+/*body:not(.list-view) #app-container .library-item .info-wrap button {
     width: 110%;
-}
+}*/
 
 body.list-view #app-container .library-item .book-info,
 body.list-view #app-container .library-item .info-wrap{

@@ -73,3 +73,8 @@ iframe {
 .fixed-page-frame, .fixed-page-frame-left, .fixed-page-frame-right, .fixed-page-frame-center {
     position: absolute !important;
 }
+
+.tooltip.in {
+    opacity: 1;
+    filter: alpha(opacity=100)
+

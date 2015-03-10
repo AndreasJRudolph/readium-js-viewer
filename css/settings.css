@@ -1,4 +1,6 @@
-
+label {
+    font-weight: 100;
+}
 #font-size-input, #margin-size-input{
   width: 100%;
   margin-top: 7px;
@@ -23,16 +25,16 @@
 #keyboard-list {
     list-style-type: none;
     padding-right: 2em;
-    margin-bottom: 0;
 }
+
 #keyboard-list > li {
     position: relative;
-
-    border-top: 1px dashed silver;
-    margin-bottom: 0.6em;
+    border-top: 1px dashed;
+    margin-bottom: 0.5em;
 }
 #keyboard-list > li > label {
     text-align: left;
+    margin-top: 0.4em;
 }
 #keyboard-list > li > label > span {
     font-weight: normal;
@@ -125,7 +127,6 @@
 }
 #keyboard-list > li#resetAllKeysBOTTOM
 {
-    border:0;
     padding: 0;
     margin: 0;
 }

@@ -72,7 +72,7 @@ colpick Color Picker / colpick.com
 	width: 11px;
 	height: 11px;
 	margin: -6px 0 0 -6px;
-	border: 1px solid black;
+	border: 1px solid #000000;
 	border-radius: 50%;
 }
 .colpick_selector_inner{

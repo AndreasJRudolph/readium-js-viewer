@@ -145,11 +145,11 @@ html[data-theme=night-theme] .book-title-header,
 html[data-theme=night-theme] body,
 html[data-theme=night-theme] #readium-toc-body {
     background-color: #333333;
-    color: white;
+    color: #ffffff;
 }
 
 html[data-theme=night-theme] .modal {
-    color: black;
+    color: #000000;
 }
 
 /*.icon-show-hide, .icon-show-hide:active{
@@ -214,12 +214,12 @@ html[data-theme=night-theme] .modal {
     font-size: 40px;
 
     background-color: rgba(255, 255, 255, 0.5);
-    color: black;
+    color: #000000;
 }
 
 html[data-theme=night-theme] .page-switch-overlay-icon {
     background-color: rgba(0, 0, 0, 0.4);
-    color: white;
+    color: #ffffff;
 }
 
 .page-switch-overlay-icon > span {
@@ -239,13 +239,13 @@ html[data-theme=night-theme] .page-switch-overlay-icon {
 /* #left-page-btn:focus, */
 #left-page-btn:hover {
     opacity: 1.0;
-    color: white;
+    color: #ffffff;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* html[data-theme=night-theme] #left-page-btn:focus, */
 html[data-theme=night-theme] #left-page-btn:hover {
-    color: black;
+    color: #000000;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -259,13 +259,13 @@ html[data-theme=night-theme] #left-page-btn:hover {
 /* #right-page-btn:focus, */
 #right-page-btn:hover {
     opacity: 1.0;
-    color: white;
+    color: #ffffff;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* html[data-theme=night-theme] #right-page-btn:focus, */
 html[data-theme=night-theme] #right-page-btn:hover {
-    color: black;
+    color: #000000;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -414,7 +414,7 @@ html[data-theme=night-theme] #right-page-btn:hover {
     z-index: 2;
     width: 100%;
     background-color: rgba(0, 0, 0, .7);
-    color: white;
+    color: #ffffff;
 
 }
 
@@ -432,7 +432,7 @@ html[data-theme=night-theme] #right-page-btn:hover {
 }
 
 .embedded #readium-toc-body a {
-    color: white;
+    color: #ffffff;
 }
 
 .embedded .toc-visible button.close {
@@ -626,12 +626,12 @@ ul.nav-tabs li button {
 
 ul.nav-tabs li.active button {
     border: 1px solid silver !important;
-    border-bottom: 2px solid white !important;
+    border-bottom: 2px solid #ffffff !important;
     border-radius: 0.5em !important;
     border-bottom-left-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
 
-    color: black !important;
+    color: #000000 !important;
 }
 
 ul.nav-tabs li:not(.active) button:hover {

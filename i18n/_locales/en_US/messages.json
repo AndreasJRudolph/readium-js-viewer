@@ -109,6 +109,9 @@
   "err_epub_corrupt" : {
     "message": "Invalid or corrupted epub package"
   },
+  "err_ajax": {
+    "message": "Error in ajax request"
+  },
   "err_dlg_title" : {
     "message": "Unexpected Error"
   },
